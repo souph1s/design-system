@@ -1,0 +1,21 @@
+{
+  "name": "@ignite-ui-sophi/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ignite-ui-sophi/tokens": "*",
+    "@ignite-ui-sophi/ts-config": "*",
+    "typescript": "^5.5.4",
+    "tsup": "^8.2.4"
+  }
+}
