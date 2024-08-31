@@ -1,1 +1,3 @@
-import {colors} from "@ignite-ui-sophi/tokens"
+import { colors } from '@ignite-ui-sophi/tokens'
+
+console.log(colors)
